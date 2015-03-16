@@ -1,0 +1,1 @@
+I:\Projects\C#\sertificator\sertificator\bin\Debug\sertificator.exe.config
