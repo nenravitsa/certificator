@@ -1,1 +1,8 @@
 I:\Projects\C#\sertificator\sertificator\bin\Debug\sertificator.exe.config
+C:\Users\Lenovo\Documents\GitHub\certificator\sertificator\sertificator\bin\Debug\sertificator.exe.config
+C:\Users\Lenovo\Documents\GitHub\certificator\sertificator\sertificator\obj\Debug\sertificator.csprojResolveAssemblyReference.cache
+C:\Users\Lenovo\Documents\GitHub\certificator\sertificator\sertificator\bin\Debug\sertificator.exe
+C:\Users\Lenovo\Documents\GitHub\certificator\sertificator\sertificator\bin\Debug\sertificator.pdb
+C:\Users\Lenovo\Documents\GitHub\certificator\sertificator\sertificator\bin\Debug\itextsharp.dll
+C:\Users\Lenovo\Documents\GitHub\certificator\sertificator\sertificator\obj\Debug\sertificator.exe
+C:\Users\Lenovo\Documents\GitHub\certificator\sertificator\sertificator\obj\Debug\sertificator.pdb
