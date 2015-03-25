@@ -20,11 +20,11 @@ namespace sertificator
             string filePath = @"c://users/lenovo/documents";
             string imagePath = @"c://users/lenovo/documents";
             string font = @"c://users/lenovo/documents/new";
-            string str1 = "Сертификат";
-            string str2 = "это информация об услуге";
-            string str3 = "и еще чуть-чуть";
+            string str1 = @"Сертификат";
+            string str2 = @"это информация об услуге";
+            string str3 = @"и еще чуть-чуть";
             //size of document        
-            using (FileStream fs = new FileStream(filePath+@"/9.pdf", FileMode.Create, FileAccess.Write, FileShare.None))
+            using (FileStream fs = new FileStream(filePath+@"/10.pdf", FileMode.Create, FileAccess.Write, FileShare.None))
             {
                 Rectangle pagesize = new Rectangle(PageSize.A5.Rotate()); //size of document
                 Document doc = new Document(pagesize, 0f, 0f, 0f, 0f);
@@ -39,7 +39,9 @@ namespace sertificator
                 FontSelector selector1 = new FontSelector();
                 Font f1 = FontFactory.GetFont(font + @"/constantine.ttf", BaseFont.IDENTITY_H, true);
                 f1.SetColor(255, 250, 250);
-                Phrase ph = selector1.Process(str1);
+                selector1.AddFont(f1);
+                var ph = selector1.Process(str1);
+                
                 Paragraph title = new Paragraph(ph);
                 title.Alignment = Element.ALIGN_CENTER;
                 doc.Add(title);
